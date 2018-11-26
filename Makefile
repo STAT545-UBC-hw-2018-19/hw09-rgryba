@@ -1,7 +1,7 @@
 all: report.html
 
 clean:
-	rm -f words.txt histogram.tsv histogram.png report.md report.html
+	rm -f words.txt histogram.tsv histogram.png report.md report.html plotLength.png letterLength.tsv
 
 report.html: report.rmd histogram.tsv histogram.png
 	Rscript -e 'rmarkdown::render("$<")'
@@ -13,11 +13,11 @@ histogram.png: histogram.tsv
 histogram.tsv: histogram.r words.txt
 	Rscript $<
 	
-violin.png: violin.r words.txt
+plotLength.png: violin.R words.txt
 	Rscript $<
 	rm Rplots.pdf
 	
-violin.tsv: violin.r words.txt
+letterLength.tsv: violin.R words.txt
 	Rscript $<
 
 words.txt: /usr/share/dict/words
