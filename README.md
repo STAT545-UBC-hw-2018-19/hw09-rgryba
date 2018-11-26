@@ -1,17 +1,16 @@
+# Hw09 - make and building a pipeline
+## Rowenna Gryba
+
 make-activity
 =============
 
-The commit history of this repository reflects what a student might do as she works through [this activity](http://stat545-ubc.github.io/automation04_make-activity.html) from [STAT 545](http://stat545-ubc.github.io). This fully developed example shows:
+This homework is based off the code provided as part of the Stat547 in class [activity](http://stat545-ubc.github.io/automation04_make-activity.html) from the STAT 545/547 [githup](http://stat545-ubc.github.io). 
 
-  * How to run an R script non-interactively
-  * How to use `make`
-    - to record which files are inputs vs. intermediates vs. outputs
-    - to capture how scripts and commands convert inputs to outputs
-    - to re-run parts of an analysis that are out-of-date
-  * The intersection of R and `make`, i.e. how to
-    - run snippets of R code
-    - run an entire R script
-    - render an R Markdown document (or R script)
-  * The interface between RStudio and `make`
-  * How to use `make` from the shell
-  * How Git facilitates the process of building a pipeline
+To expand on the activity in class I have added R script to develop... and an Rmarkdown file to provide reporting on...
+
+The files and output can be found here:
+
+|File|Link|
+|---|---|
+|R code|()|
+|R markdown| ()|

@@ -12,9 +12,16 @@ histogram.png: histogram.tsv
 
 histogram.tsv: histogram.r words.txt
 	Rscript $<
+	
+violin.png: violin.r words.txt
+	Rscript $<
+	rm Rplots.pdf
+	
+violin.tsv: violin.r words.txt
+	Rscript $<
 
 words.txt: /usr/share/dict/words
 	cp $< $@
 
 # words.txt:
-#	Rscript -e 'download.file("http://svnweb.freebsd.org/base/head/share/dict/web2?view=co", destfile = "words.txt", quiet = TRUE)'
+	#Rscript -e 'download.file("http://svnweb.freebsd.org/base/head/share/dict/web2?view=co", destfile = "words.txt", quiet = TRUE)'
