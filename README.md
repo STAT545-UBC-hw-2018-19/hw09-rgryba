@@ -12,5 +12,5 @@ The files and output can be found here:
 
 |File|Link|
 |---|---|
-|R code|[violin.R](/Users/rowennagryba/github/Hw09/violin.R)|
-|R markdown|[report2.Rmd](/Users/rowennagryba/github/Hw09/report2.Rmd)|
+|R code|[violin.R](violin.R)|
+|R markdown|[report2.Rmd](report2.Rmd)|
