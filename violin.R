@@ -9,15 +9,15 @@ letterLength <- words %>%
 				 length = nchar(value)) #get length of each word
 
 #violin plots of word lenths for each letter
-plotLength <- ggplot(letterLength, aes(as.factor(start), length)) +
+violin <- ggplot(letterLength, aes(as.factor(start), length)) +
 	geom_violin() +
 		xlab("Starting letter of word") +
 		ylab("Word length") +
 		theme_bw()
 
-ggsave("plotLength.png")
+ggsave("violin.png")
 
-write.table(letterLength, "letterLength.tsv",
+write.table(letterLength, "violin.tsv",
 						sep = "\t", row.names = FALSE, quote = FALSE)
 
 
