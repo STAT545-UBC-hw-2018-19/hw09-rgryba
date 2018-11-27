@@ -17,8 +17,7 @@ violin <- ggplot(letterLength, aes(as.factor(start), length)) +
 
 ggsave("violin.png")
 
-write.table(letterLength, "violin.tsv",
-						sep = "\t", row.names = FALSE, quote = FALSE)
+write.table(letterLength, "violin.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
 
 
 
