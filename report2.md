@@ -1,7 +1,7 @@
 ---
 title: "English Word lengths by first letter"
 author: "Rowenna Gryba"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "26 November, 2018"
 output:
   html_document:
     keep_md: yes
