@@ -10,9 +10,8 @@ To expand on the activity completed in class I have added R script to develop a 
 
 I have also split the analysis so that each can be made seperately via the terminal. 
 
-*make analysis1 - will result in the results created during class
-
-*make analysis2 - will result in the new results I've developed
+* make analysis1 - will result in the results created during class
+* make analysis2 - will result in the new results I've developed
 
 The files and output can be found here:
 
